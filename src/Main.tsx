@@ -216,6 +216,9 @@ const Main = () => {
           </table>
         )}
       </div>
+      <PDFViewer style={{ width: '100%', height: '500px', marginTop: 30 }}>
+        <MyDocument sales={sales} />
+      </PDFViewer>
       <div className="flex justify-center items-center text-xl mt-12">
         <div className="cursor-pointer bg-blue-500 text-white font-semibold px-2 py-1 rounded-md">
           <PDFDownloadLink
@@ -228,9 +231,6 @@ const Main = () => {
           </PDFDownloadLink>
         </div>
       </div>
-      <PDFViewer style={{ width: '100%', height: '500px', marginTop: 30 }}>
-        <MyDocument sales={sales} />
-      </PDFViewer>
     </>
   )
 }
