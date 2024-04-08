@@ -1,0 +1,7 @@
+.hide_arrows {
+}
+.hide_arrows::-webkit-outer-spin-button,
+.hide_arrows::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
